@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/21fe70ad-cf84-49e7-ad2b-2cfcac61e3d2.jpeg);
+    color: rgb(219, 217, 217);
+}
+
+main{
+    background-image: linear-gradient(to right, #011835fa, #050116) ;
+    width: 1680px;
+    height: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(8, 19, 119, 0.356);
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+
+img{
+    max-width: 180px;
+    min-width: 150;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+p{
+
+    margin-left: 20px;
+
+}
+

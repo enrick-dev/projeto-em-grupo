@@ -1,12 +1,4 @@
 @charset "UTF-8";
-:root{
-    --cor1: #CE25F9;
-    --cor2: #8221DB;
-    --cor3: #6130F2;
-    --cor4: #2125DB;
-    --cor5: #2562F9;
-}
-
 
 *{
     padding: 0;
@@ -15,7 +7,7 @@
     
 }
 header{
-    background-image: linear-gradient(to bottom, #7c1fd3cb,#541dd4e5);
+    background-image: linear-gradient(to top, #2875daea,#063879c4);
     font-weight: bold;
     margin: 0px;
     padding: 20px;
@@ -34,3 +26,8 @@ header a{
 a:hover{
     color: rgba(255, 255, 255, 0.822);
 }
+
+#colab{
+    color: rgba(255, 255, 255, 0.568);
+}
+
