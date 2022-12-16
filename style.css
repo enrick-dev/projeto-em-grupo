@@ -10,7 +10,6 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-image: url(./img/background.jpg);
   background-size: cover;
   background-position: center;
