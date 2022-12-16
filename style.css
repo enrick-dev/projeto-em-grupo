@@ -10,7 +10,41 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: url(./img/background.jpg);
   background-size: cover;
   background-position: center;
+}
+main {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+main .containerResumo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+}
+main .containerConteudo {
+  background-color: rgba(6, 56, 122, 70%);
+  margin-top: 5rem;
+  width: 80%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+main .title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.containerResumo p {
+  width: 70%;
+  padding-top: 3rem;
+  font-size: 17px;
+  font-weight: 400;
 }
