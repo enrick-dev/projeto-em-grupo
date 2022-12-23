@@ -13,19 +13,64 @@ body {
 }	
 
 main {
+  display: flex;
+  flex-direction: column;
   color: white;
   text-align:center;
+  justify-content: center;
+  align-items: center;
     
   }
   h1 {
     margin: 80px;
   }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  border: 1px solid white;
+  background-color: rgba(74, 61, 61, 0.322);
+  padding: 70px 30px;
+  border-radius: 10px;
+ }
+
 .input-padrao{
   display: block;
   margin: 20px auto;
   padding:  15px;
-  width: 25%;
+  width: 70%;
+  border-radius: 15px;
+ }
+
+ .button{
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  background-color: rgb(39, 39, 251);
+  border-radius: 5px;
+  padding: 10px 45px;
+  color: white;
+  cursor: pointer;
+  margin: 50px 0 10px 0;
+  
+ }
+
+ .button:hover {
+  background-color: rgb(4, 4, 147);
+ }
+
+ a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+ }
+
+ a:hover{
+  color: rgb(189, 186, 186);
  }
  
 
