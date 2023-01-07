@@ -1,72 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Projeto de estudos</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700;900&display=swap"
       rel="stylesheet"
-      />
-</head>
-<body>
-     <!---- <header>
-        <div class="caixa">
-          <h1><img src="imgs/logo-home.JPG" alt="logo-home" /></h1>
-
-          <nav>
-            <ul>
-              <li><a href="projeto.html">projeto</a></li>
-              <li><a href="participantes.html">participantes</a></li>
-              <li><a href="participe.html">participe</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header> -->
-  <main>
-        
-    <h1>Seja Bem vindo(a) e bons estudos !!!</h1>
-
-    <div class="container">
-    <label for="username">ID de usuário</label>
-    <input
-    type="text"
-    id="username"
-    class="input-padrao"
-    required
-    placeholder="username"
-    /> 
-    <label for="pass">Senha</label>
-    <input
-    type="password"
-    id="pass"
-    class="input-padrao"
-    required
-    placeholder="8 characters minimum"
-    name="password"
-    minlength="8" required
     />
-    <button type="submit" class="button">Sign in</button>
-    <a href="https://www.w3schools.com">Cadastrar</a>
-    <a href="https://www.w3schools.com">Recuperar senha</a>
-    </div>
-  </main>
+  </head>
+  <body>
+    <header></header>
 
+    <main>
+      <h1>Seja Bem vindo(a) e bons estudos !!!</h1>
 
+      <div class="container">
+        <label for="username">ID de usuário</label>
+        <input
+          type="text"
+          id="username"
+          class="input-padrao"
+          required
+          placeholder="username"
+        />
+        <label for="pass">Senha</label>
+        <input
+          type="password"
+          id="pass"
+          class="input-padrao"
+          required
+          placeholder="8 characters minimum"
+          name="password"
+          minlength="8"
+          required
+        />
+        <button type="submit" class="button">Sign in</button>
+        <a href="https://www.w3schools.com">Cadastrar</a>
+        <a href="https://www.w3schools.com">Recuperar senha</a>
+      </div>
+    </main>
 
-
-    <!-- <p>1- git pull origin branch</p>
-        <p>2- git add .</p>
-        <p>3- git commit -m " "</p>
-        <p>4- git push origin branch</p>
-        
-        <p>git branch</p>
-        <p>git branch teste</p>
-        <p>git checkout (branch)</p>-->
-        
-    <footer></footer>
-</body>
+    <footer class="rodape">
+      <ul>
+        <a href="#"><li>O projeto</li></a>
+        <a href="#"><li>Colaboradores</li></a>
+        <a href="#"><li>Participe</li></a>
+      </ul>
+      <div class="containerBtns">
+        <a href="#"><button>Link</button></a>
+        <a href="#"><button>Link</button></a>
+      </div>
+    </footer>
+  </body>
 </html>
