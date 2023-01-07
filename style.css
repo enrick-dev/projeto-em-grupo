@@ -5,7 +5,14 @@
   font-family:'Open Sans', sans-serif;
   color: #f1f1f1;
 }
+html {
+  min-height: 100%;
+  background-image: url(imgs/imagem-de-fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
+}
 body {
   height: 100vh;
   display: flex;
@@ -14,8 +21,67 @@ body {
   background-size: cover;
   background-position: center;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align:center;
+  justify-content: center;
+  align-items: center;
+    
+  }
+  main h1 {
+    margin: 80px;
+  }
 
-.rodape {
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  border: 1px solid white;
+  background-color: rgba(74, 61, 61, 0.322);
+  padding: 70px 30px;
+  border-radius: 10px;
+ }
+
+.input-padrao{
+  display: block;
+  margin: 20px auto;
+  padding:  15px;
+  width: 70%;
+  border-radius: 15px;
+ }
+
+ .button{
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  background-color: rgb(39, 39, 251);
+  border-radius: 5px;
+  padding: 10px 45px;
+  color: white;
+  cursor: pointer;
+  margin: 50px 0 10px 0;
+  
+ }
+
+ .button:hover {
+  background-color: rgb(4, 4, 147);
+ }
+
+ main a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+ }
+
+ main a:hover{
+  color: rgb(189, 186, 186);
+ }
+ .rodape {
   flex-shrink: 0;
   width: 100%;
   height: 12rem;
